@@ -14,16 +14,17 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                'some-red': '#FF4240',
+                'some-black': '#131318',
               }
             }
           }
         }
       </script>
   <!-- google font manrope link  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- styles here  -->
     <style>
@@ -31,13 +32,51 @@
         font-family: 'Manrope', sans-serif;
       }
     </style>
+    <!-- font awesome link  -->
+    <script
+    src="https://kit.fontawesome.com/f1a0b1f781.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
 <body class="font-manrope">
-    <header>
+    <header class="w-4/5 mx-auto">
       <!-- nav section  -->
-      <nav>
-
+      <nav class="my-14">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li class="text-some-red text-base font-normal" ><a>Home</a></li>
+                <li class="text-[#424247] text-base font-normal"><a>About</a></li>
+                <li class="text-[#424247] text-base font-normal"><a>Page</a></li>
+                <li class="text-[#424247] text-base font-normal"><a>Blog</a></li>
+                <li class="text-[#424247] text-base font-normal"><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-4xl font-extrabold text-some-blace">Hockey<span class="text-some-red">’</span>s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="text-some-red text-base font-normal" ><a>Home</a></li>
+              <li class="text-[#424247] text-base font-normal"><a>About</a></li>
+              <li class="text-[#424247] text-base font-normal"><a>Page</a></li>
+              <li class="text-[#424247] text-base font-normal"><a>Blog</a></li>
+              <li class="text-[#424247] text-base font-normal"><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="flex justify-between items-center gap-6">
+              <i class="fa-solid fa-magnifying-glass text-red-900"></i>
+              <a class="btn bg-some-red text-white text-xl font-bold">Get Ticket</a>
+            </div>
+          </div>
+        </div>
       </nav>
+
+      
     </header>
     <body>
         

@@ -678,16 +678,16 @@
     </section>
 
     <!-- get in touch section  -->
-    <section>
+    <section class="mb-40">
       <h2 class="text-some-black text-center text-xl lg:text-4xl font-extrabold">Get In Touch</h2>
       <p class="w-2/3 mx-auto text-center text-sm lg:text-base font-medium my-4">Dit amet consectetur. Condimentum
         dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
       <!-- touch part -->
-      <div>
+      <div class="flex justify-between flex-col lg:flex-row gap-6">
         <!-- left part -->
-        <div class="flex flex-col gap-6">
+        <div class="flex flex-col gap-6 flex-1 border border-solid border-[#13131819] rounded-2xl">
           <!-- one  -->
-          <div class="bg-[#BCED6D19] rounded-2xl see mx-24">
+          <div class="bg-[#BCED6D19] rounded-2xl see mx-12 my-12">
             <div class="flex flex-col gap-6 p-6">
               <img class="w-12 h-12" src="Images/Group 1171275317.png" alt="">
               <div>
@@ -697,7 +697,7 @@
             </div>
           </div>
           <!-- two  -->
-          <div class="bg-[#FDDD5E19] rounded-2xl see mx-24">
+          <div class="bg-[#FDDD5E19] rounded-2xl see mx-12">
             <div class="flex flex-col gap-6 p-6">
               <img class="w-12 h-12" src="Images/Group 1171275318.png" alt="">
               <div>
@@ -707,7 +707,7 @@
             </div>
           </div>
           <!-- three  -->
-          <div class="bg-[#629CF319] rounded-2xl see mx-24">
+          <div class="bg-[#629CF319] rounded-2xl see mx-12 my-12">
             <div class="flex flex-col gap-6 p-6">
               <img class="w-12 h-12" src="Images/Group 1171275317.png" alt="">
               <div>
@@ -718,10 +718,46 @@
           </div>
 
         </div>
-        <!-- right part  -->
-        <div>
 
+        <!-- right part  -->
+        <div class="flex-1 flex flex-col justify-between">
+          <!-- first row  -->
+          <div class="flex lg:justify-between gap-6 flex-col lg:flex-row">
+            <!-- Name -->
+            <div class="flex-1">
+              <h1 class="text-[#131318] text-xl font-bold mb-4">Your Name</h1>
+              <input type="text" placeholder="Enter your name" class="input input-bordered w-full bg-[#13131804]" />
+            </div>
+            <!-- email  -->
+            <div class="flex-1">
+              <h1 class="text-[#131318] text-xl font-bold">Your Email</h1>
+              <input type="email" placeholder="Enter your email" class="input input-bordered w-full bg-[#13131804]" />
+            </div>
+          </div>
+
+          <!-- second row  -->
+          <div class="flex lg:justify-between gap-6 flex-col lg:flex-row">
+            <!-- subject -->
+            <div class="flex-1">
+              <h1 class="text-[#131318] text-xl font-bold mb-4">Your Name</h1>
+              <input type="text" placeholder="Enter your subject" class="input input-bordered w-full bg[#13131804]" />
+            </div>
+            <!-- phone  -->
+            <div class="flex-1">
+              <h1 class="text-[#131318] text-xl font-bold mb-4">Phone Number</h1>
+              <input type="number" placeholder="Enter your phone number" class="input input-bordered w-full bg-[#13131804]" />
+            </div>
+          </div>
+
+          <!-- third row  -->
+          <div class="mb-4">
+            <h1 class="text-[#131318] text-xl font-bold mb-4">Message</h1>
+              <input type="text" placeholder="Enter your subject" class="input input-bordered w-full h-24 lg:h-96 bg-[#13131804] " />  
+          </div>
+          <!-- send button  -->
+            <button class="btn bg-some-red text-white w-full">Send Message</button>
         </div>
+
       </div>
 
 
